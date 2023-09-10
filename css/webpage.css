@@ -1,0 +1,93 @@
+.main {
+    margin: 30px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 70px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.details {
+    color: #ebebeb;
+    padding-left: 10px;
+}
+
+.movie {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.poster {
+    height: 400px;
+    width: auto;
+}
+
+.poster img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.trailer {
+    height: 400px;
+}
+
+.trailer iframe {
+    height: 100%;
+    width: 100%
+}
+
+.genre {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-left: 10px;
+    margin: 5px 0px;
+}
+
+.genre p {
+    border: 1px solid #ebebeb;
+    border-radius: 40px;
+    padding: 5px 10px;
+    color: #ebebeb;
+}
+
+.description {
+    padding-left: 10px;
+    color: #ebebeb;
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #444;
+}
+
+.director, .writer, .cast {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    column-gap: 30px;
+    color: #ebebeb;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #444;  
+}
+
+.cast {
+    border-bottom: none;
+} 
+
+.director p, .writer p, .cast p {
+    font-weight: 600;
+    width: 100px;
+}
+
+.director a, .writer a, .cast a {
+    text-decoration: none;
+    color: #3688fb;
+}
+
+
